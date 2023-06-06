@@ -1,0 +1,131 @@
+.p_principal_header {
+  background: rgba(0, 0, 0, 0.7) url("home_fondo.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  /*background-position: 0% 50%;*/
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-color: white;
+  padding: 20px;
+  margin: 1px;
+  border: 1px;
+  border-style: ridge;
+}
+
+
+.logo {
+  width: 200px;
+  border-style: none;
+}
+
+.titulo_llamativo {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-left: 10px;}
+
+.subtitulo_llamativo {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 1px;
+}
+
+.boton_1 {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10%;
+}
+
+.beneficios{
+  display: flex;
+  justify-content: flex-start;
+  color:white;
+  font-size: 30px;
+  margin-top: 10%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  
+}
+
+.beneficiosos{
+  margin:10px;
+  box-sizing: 10%;
+
+}
+
+h3 {
+  margin: 0%;
+}
+
+p{
+  margin: 0%;
+}
+
+/* body */
+
+.empresas_titulo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10%;
+ font-size: 1.75rem;
+}
+
+.ver{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.habilidades{
+  background-color:#0C0916 ;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contenedor2{
+margin-left: 7%;
+margin-right: 7%;
+}
+
+.seccion_escuelas{
+  display: flex;
+  flex-direction: column;
+}
+
+.escuela{
+ display: flex;
+ align-items: stretch;
+ justify-content: space-around;
+ margin-top: 5%;
+ 
+}
+
+.escuelas{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+
+
+
+  }
