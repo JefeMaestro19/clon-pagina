@@ -36,7 +36,8 @@ a {
   font-size: 80px;
   font-weight: bold;
   margin-bottom: 1px;
-  margin-left: 10px;}
+  margin-left: 10px;
+}
 
 .subtitulo_llamativo {
   color: white;
@@ -51,19 +52,19 @@ a {
   margin-top: 10%;
 }
 
-.beneficios{
+.beneficios {
   display: flex;
   justify-content: flex-start;
-  color:white;
+  color: white;
   font-size: 30px;
   margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 1%;
-  
+
 }
 
-.beneficiosos{
-  margin:10px;
+.beneficiosos {
+  margin: 10px;
   box-sizing: 10%;
 
 }
@@ -72,60 +73,81 @@ h3 {
   margin: 0%;
 }
 
-p{
+p {
   margin: 0%;
 }
 
 /* body */
 
-.empresas_titulo{
- display: flex;
- justify-content: center;
- align-items: center;
- padding: 10%;
- font-size: 1.75rem;
+.empresas_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  font-size: 1.75rem;
 }
 
-.ver{
+.ver {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
 }
 
-.habilidades{
-  background-color:#0C0916 ;
+.habilidades {
+  background-color: #0C0916;
   color: white;
   font-size: 1.2rem;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.contenedor2{
-margin-left: 7%;
-margin-right: 7%;
+
+.contenedor2 {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
-.seccion_escuelas{
+.seccion_escuelas {
   display: flex;
   flex-direction: column;
 }
 
-.escuela{
- display: flex;
- align-items: stretch;
- justify-content: space-around;
- margin-top: 5%;
- 
+.escuela {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 5%;
+
+
+
+
+
 }
 
-.escuelas{
+
+.escuelas {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: stretch;
   align-items: center;
- 
-  
+  margin-right: 5%;
+  margin-right: 1%;
+  padding-right: 3%;
+  text-align: initial;
+}
 
+.e1 {
+  border-left: 3px solid #9272FF;
+}
 
+.e2 {
+  border-left: 3px solid #FFAC66;
+}
 
-  }
+.e3 {
+  border-left: 3px solid #E85D97;
+}
+
+.e4 {
+  border-left: 3px solid #5BFF66;
+}
