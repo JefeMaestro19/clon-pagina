@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .p_principal_header {
   background: rgba(0, 0, 0, 0.7) url("home_fondo.jpg");
   background-repeat: no-repeat;
@@ -15,14 +20,14 @@
   padding: 1%;
 }
 
-a {
+a{
   text-decoration: none;
   color: white;
   border-color: white;
   padding: 20px;
-  margin: 1px;
+ /*margin: 1px;
   border: 1px;
-  border-style: ridge;
+  border-style: ridge; */
 }
 
 
@@ -87,6 +92,10 @@ p {
   font-size: 1.75rem;
 }
 
+.empresas{
+  overflow: hidden;
+}
+
 .ver {
   display: flex;
   justify-content: center;
@@ -131,7 +140,7 @@ p {
   justify-content: stretch;
   align-items: center;
   margin-right: 5%;
-  margin-right: 1%;
+
   padding-right: 3%;
   text-align: initial;
 }
@@ -150,4 +159,8 @@ p {
 
 .e4 {
   border-left: 3px solid #5BFF66;
+}
+
+.vermas{
+  padding: 10%;
 }
